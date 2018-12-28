@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="normalize.css">
+    <title>CSS Left Frame Layout</title>
+    <!-- This is a 2 columns liquid layout with a default width of 100%. For the columns themselves, the left column is
+    fixed, while the content column is fluid. -->
+    <!-- The layout drops down the left column beneath the content column and makes both column fluid in dimensions when the
+    user's browser/device width is 600px or below. To disable the responsive behavior, remove the "viewport" META tag
+    in the HEAD section of the page, plus the CSS that comes after the "responsive layout CSS " section. -->
+</head>
+
+<body>
+    <div id="maincontainer">
+
+        <div id="topsection">
+            <div class="innertube">
+                <h1>CSS Liquid Layout</h1>
+            </div>
+        </div>
+
+        <div id="contentwrapper">
+            <div id="contentcolumn">
+                <div class="innertube"><b>Content Column: <em>Fluid</em><br>"Sed ut perspiciatis unde omnis iste natus
+                        error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
+                        illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+                        voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+                        eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia
+                        dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut
+                        labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum
+                        exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
+                        Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae
+                        consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</b>
+                </div>
+            </div>
+        </div>
+
+        <div id="leftcolumn">
+            <div class="innertube"><b>Left Column: <em>200px</em><br>"Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    "</b>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
